@@ -166,9 +166,9 @@ const Contact = () => {
       </Icons>
       <Form ref={formRef} onSubmit={handleSubmit}>
         <Row>
-          <input name="name" type="text" placeholder="your name" name="user_name" />
+          <input name="name" type="text" placeholder="your name" name1="user_name" />
           <input name="email" type="email"
-           placeholder="enter working email id" name="user_email"
+           placeholder="enter working email id" name2="user_email"
           />
         </Row>
         <textarea
@@ -176,7 +176,7 @@ const Contact = () => {
           id=""
           cols="30"
           rows="2"
-          placeholder="your message" name="message"
+          placeholder="your message" name3="message"
         ></textarea>
         <div style={{ margin: "0 auto" }}>
           <button>Submit</button>
